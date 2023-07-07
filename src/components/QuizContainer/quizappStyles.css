@@ -1,0 +1,17 @@
+.QuizContainer{
+    
+    background-color: rgba(246, 241, 241, 0.882);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.result-Box{
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 255, 0.567);
+}

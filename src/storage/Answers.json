@@ -1,0 +1,30 @@
+
+[
+  {
+    "question": "How can you access the state of a component from inside of a member function?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "this.getState()",
+      "this.prototype.stateValue",
+      "this.state",
+      "this.values"
+    ],
+    "correctAnswer": "3",
+    "point": "20"
+  },
+  {
+    "question": "pregunta 2",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "this.getState()",
+      "this.prototype.stateValue",
+      "this.state",
+      "this.values"
+    ],
+    "correctAnswer": "3",
+    "point": "20"
+  }
+  ]
+  
