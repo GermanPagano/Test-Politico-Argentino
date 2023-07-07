@@ -1,29 +1,29 @@
 
 [
   {
-    "question": "How can you access the state of a component from inside of a member function?",
+    "question": "¿Que harias con los planes sociales?",
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "this.getState()",
-      "this.prototype.stateValue",
-      "this.state",
-      "this.values"
+      "Los elimino, decididamente.",
+      "Los planes incentivan la economia, hay que mantenerlos y actualizarlos.",
+      "Dejaria los planes, pero esa gente trabajaria para el estado sin goce de sueldo.",
+      "Los congelo, licuando el gasto con la devaluacion del peso."
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "N/A",
     "point": "20"
   },
   {
-    "question": "pregunta 2",
+    "question": "  ¿ Bajarias la imputabilidad ?",
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "this.getState()",
-      "this.prototype.stateValue",
-      "this.state",
-      "this.values"
+      "Las carceles ya estan saturadas, hay que invertir en oportunidades.",
+      "Los menores que roban saben lo que hacen.",
+      "Aplicaria un servicio militar obligatorio donde aprendan modales civiles.",
+      "Para compensar la inseguridad dejaria libre portacion de armas."
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "N/A",
     "point": "20"
   }
   ]

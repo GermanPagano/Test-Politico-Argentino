@@ -9,6 +9,14 @@ const QuizApp = () => {
   useEffect(() => {
     const adaptedQuizData = {
       quizTitle: " Test Politico Argentino ",
+      appLocale: {
+        "landingHeaderText": "",
+        "question": "Pregunta",
+        "startQuizBtn": "Comenzar",
+        "resultFilterAll": "All",
+
+
+      } ,
       questions: preguntas.map((pregunta) => ({
         question: pregunta.question,
         questionType: pregunta.questionType,
@@ -43,7 +51,8 @@ const QuizApp = () => {
             quiz={quizData}
             showDefaultResult={false}
             customResultPage={renderCustomResultPage}
-
+            
+            
           />
       ) : (
         <p>Cargando preguntas...</p>
