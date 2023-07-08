@@ -5,13 +5,13 @@
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "Los elimino, decididamente.",
       "Los planes incentivan la economia, hay que mantenerlos y actualizarlos.",
-      "Dejaria los planes, pero esa gente trabajaria para el estado sin goce de sueldo.",
+      "Los elimino, decididamente.",
+      "Considero que los planes no son un problema con una buena redistribución de la riqueza.",
       "Los congelo, licuando el gasto con la devaluacion del peso."
+
     ],
-    "correctAnswer": "N/A",
-    "point": "20"
+    "correctAnswer": "N/A"
   },
   {
     "question": "  ¿ Bajarias la imputabilidad ?",
@@ -23,8 +23,195 @@
       "Aplicaria un servicio militar obligatorio donde aprendan modales civiles.",
       "Para compensar la inseguridad dejaria libre portacion de armas."
     ],
-    "correctAnswer": "N/A",
-    "point": "20"
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu postura respecto a la redistribución de la riqueza?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Debería haber una mayor redistribución para garantizar la igualdad económica.",
+      "La riqueza debe estar en manos de quienes la generan, sin intervención estatal.",
+      "Es necesario encontrar un equilibrio entre la redistribución y el estímulo a la inversión privada.",
+      "La redistribución excesiva desincentiva la producción y el emprendimiento."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Qué medidas tomarías para fomentar el empleo?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Impulsaría la creación de empleos públicos para generar oportunidades laborales.",
+      "Reduciría la intervención estatal y promovería la flexibilidad laboral para incentivar la contratación.",
+      "Implementaría políticas de estímulo a la inversión privada para generar empleos de calidad.",
+      "Priorizaría la protección de los derechos laborales y la creación de empleos sustentables."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu posición sobre el aborto?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Defiendo el derecho de la mujer a decidir sobre su propio cuerpo y legalizaría el aborto.",
+      "Considero que el aborto va en contra del derecho a la vida y debería ser ilegal.",
+      "Apoyaría la despenalización y la implementación de políticas de educación sexual integral.",
+      "Promovería políticas de prevención y apoyo a las mujeres en situación de vulnerabilidad."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu postura respecto a la deuda externa?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Deberíamos renegociar y reducir la deuda para destinar recursos a la inversión social.",
+      "Debemos pagar la deuda en su totalidad y cumplir con nuestros compromisos internacionales.",
+      "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico.",
+      "La deuda debería ser auditada y renegociada según las necesidades del país."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Qué medidas tomarías para combatir la corrupción?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Implementaría políticas de transparencia y fortalecería los mecanismos de control estatal.",
+      "Necesitamos una justicia independiente y severas penas para los casos de corrupción.",
+      "Promovería una mayor participación ciudadana y la rendición de cuentas de los funcionarios públicos.",
+      "Establecería mecanismos de control más eficientes y fortalecería los organismos de control existentes."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu postura respecto a los derechos de la comunidad LGBTQ+?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Apoyaría la igualdad de derechos y la implementación de políticas de inclusión y diversidad.",
+      "Considero que la familia tradicional es la base de la sociedad y debe ser protegida.",
+      "Buscaría garantizar los derechos de la comunidad LGBTQ+ sin afectar los valores tradicionales.",
+      "Crearía políticas que protejan los derechos de todas las personas, independientemente de su orientación sexual."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Qué medidas tomarías para impulsar la educación pública?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Incrementaría el presupuesto destinado a la educación y fortalecería la formación docente.",
+      "Promovería la competencia entre instituciones educativas y la elección de los padres.",
+      "Mejoraría la calidad educativa a través de programas de evaluación y capacitación.",
+      "Fomentaría la participación de instituciones privadas y públicas en la oferta educativa."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu postura respecto a la minería y el medio ambiente?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Limitaría la actividad minera para proteger el medio ambiente y los recursos naturales.",
+      "Impulsaría la explotación minera como una fuente de desarrollo económico y empleo.",
+      "Establecería regulaciones estrictas para minimizar el impacto ambiental de la actividad minera.",
+      "Buscaría un equilibrio entre la explotación minera y la protección del medio ambiente."
+    ],
+    "correctAnswer": "N/A"
+  },{
+    "question": "¿Cuál es tu postura respecto a la redistribución de la riqueza?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Debería haber una mayor redistribución para garantizar la igualdad económica.",
+      "La riqueza debe estar en manos de quienes la generan, sin intervención estatal.",
+      "Es necesario encontrar un equilibrio entre la redistribución y el estímulo a la inversión privada.",
+      "La redistribución excesiva desincentiva la producción y el emprendimiento."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu postura respecto a la deuda externa?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Deberíamos renegociar y reducir la deuda para destinar recursos a la inversión social.",
+      "Debemos pagar la deuda en su totalidad y cumplir con nuestros compromisos internacionales.",
+      "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico.",
+      "La deuda debería ser auditada y renegociada según las necesidades del país."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Qué medidas tomarías para combatir la corrupción?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Implementaría políticas de transparencia y fortalecería los mecanismos de control estatal.",
+      "Necesitamos una justicia independiente y severas penas para los casos de corrupción.",
+      "Promovería una mayor participación ciudadana y la rendición de cuentas de los funcionarios públicos.",
+      "Establecería mecanismos de control más eficientes y fortalecería los organismos de control existentes."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Qué medidas tomarías para promover la inversión extranjera?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Facilitaría los trámites burocráticos y ofrecería incentivos fiscales a las empresas extranjeras.",
+      "Promovería políticas proteccionistas y restringiría la inversión extranjera en sectores estratégicos.",
+      "Buscaría acuerdos internacionales para atraer inversión extranjera y fomentar la competencia local.",
+      "Priorizaría la inversión nacional y limitaría la presencia de empresas extranjeras en el país."
+    ],
+    "correctAnswer": "N/A"
+  },{
+    "question": "¿Cuál es tu postura sobre la privatización de empresas estatales?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Promovería la privatización de empresas estatales para mejorar su eficiencia y reducir la intervención estatal.",
+      "Considero que las empresas estatales son estratégicas y deben mantenerse bajo control del Estado.",
+      "Buscaría asociaciones público-privadas para mejorar la gestión de las empresas estatales.",
+      "Defendería la nacionalización de empresas clave y fortalecería el rol del Estado en la economía."
+    ],
+    "correctAnswer": "N/A"
+  },
+  {
+    "question": "¿Cuál es tu enfoque respecto a la política migratoria?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Promovería una política migratoria más abierta, facilitando la integración de inmigrantes en el país.",
+      "Limitaría la entrada de inmigrantes y reforzaría los controles fronterizos para proteger la identidad nacional.",
+      "Buscaría un equilibrio entre la protección de las fronteras y la acogida de inmigrantes que contribuyan a la sociedad.",
+      "Priorizaría la regularización de inmigrantes que cumplan con ciertos requisitos y contribuyan al desarrollo económico."
+    ],
+    "correctAnswer": "N/A"
+  },{
+    "question": "¿Qué medidas tomarías para fomentar la innovación tecnológica?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Impulsaría la creación de centros de investigación y desarrollo, y otorgaría incentivos a empresas innovadoras.",
+      "Promovería la inversión en tecnologías tradicionales y limitaría el avance de tecnologías disruptivas.",
+      "Buscaría asociaciones público-privadas para fomentar la investigación y el desarrollo tecnológico.",
+      "Priorizaría la protección de la propiedad intelectual y promovería el desarrollo de tecnología nacional."
+    ],
+    "correctAnswer": "N/A"
+  },{
+    "question": "¿Cuál es tu postura respecto al cambio climático?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Tomaría medidas urgentes para mitigar el cambio climático y promovería la transición hacia energías renovables.",
+      "Considero que el cambio climático es una exageración y no deberíamos tomar medidas drásticas al respecto.",
+      "Buscaría equilibrar la protección del medio ambiente con el desarrollo económico y la generación de empleo.",
+      "Priorizaría la explotación de recursos naturales sin restricciones para impulsar el crecimiento económico."
+    ],
+    "correctAnswer": "N/A"
   }
   ]
   

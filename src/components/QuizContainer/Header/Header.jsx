@@ -3,7 +3,7 @@ import './headerStyles.css'
 function Header() {
   return (
     <div className='header-celeste'>
-      <div className='header-blanco'></div>
+      <div className='header-blanco'> ☀</div>
     </div>
   )
 }

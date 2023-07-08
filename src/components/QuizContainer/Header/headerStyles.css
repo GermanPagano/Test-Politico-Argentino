@@ -1,5 +1,5 @@
 .header-celeste{
-    min-height: 80px;
+    min-height: 100px;
     background-color: rgb(168, 225, 248);
     display: flex;
     align-items: center;
@@ -10,4 +10,8 @@
     min-height: 40px;
     min-width: 100%;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: 2rem;
 }

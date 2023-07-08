@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import Quiz from "react-quiz-component";
 import preguntas from "../../storage/Answers.json";
 import "./quizappStyles.css";
+import Massa  from '../../assets/img/massa.jpg';
+import Grabois  from '../../assets/img/Grabois.jpg';
+import { emphasize } from "@mui/material";
 
 const QuizApp = () => {
   const [quizData, setQuizData] = useState("");
@@ -24,23 +27,60 @@ const QuizApp = () => {
         point: pregunta.point,
       })),
     };
-
     setQuizData(adaptedQuizData);
   }, []);
 
+
+  let ultraIz = 0;
+  let ultraDer = 0;
+  let centroIz = 0;
+  let centroDer = 0;
   const handleSelectOption = (opcion) => {
-    console.log(opcion.userAnswer); // Imprimir la opción seleccionada en la consola
-    console.log(opcion)
+    switch (opcion.userAnswer) {
+      case 1:
+        ultraIz +=1
+        break;
+      case 2:
+        ultraDer += 1;
+        break;
+      case 3:
+        centroIz += 1;
+        break;
+      case 4:
+        centroDer += 1;
+        break;
+      default:
+        console.log("Respuesta no reconocida");
+        break;
+    }
+    
   };
 
+
   const renderCustomResultPage = (obj) => {
-    console.log(obj);
+
+    let maxCount = Math.max(ultraIz, ultraDer, centroIz, centroDer);
+    let message = "";
+    let vote ;
+    if (maxCount === ultraIz) {
+      message = `Elegiste ${ultraIz} respuestas de la tendencia ultra izquierda.`;
+      vote= Grabois;
+    } else if (maxCount === ultraDer) {
+      message = `Elegiste ${ultraDer} respuestas de la tendencia ultra derecha.`;
+    } else if (maxCount === centroIz) {
+      message = `Elegiste ${centroIz} respuestas de la tendencia centro izquierda.`;
+      vote = Massa
+    } else if (maxCount === centroDer) {
+      message = `Elegiste ${centroDer} respuestas de la tendencia centro derecha.`;
+    } else {
+      message = "No se identifica una tendencia predominante.";
+    }
     return (
       <div className="result-Box">
-        <p>Según tus respuestas tu candidato es:</p>
+        <p>{message}</p>
         <img
           alt="result"
-          src="https://media.lmneuquen.com/p/8c8ade600b12cab721dd9463cd11d518/adjuntos/242/imagenes/007/227/0007227974/730x0/smart/tagreuterscom2022newsml_kbn2p325x.jpeg"
+          src={Massa}
         />
       </div>
     );
