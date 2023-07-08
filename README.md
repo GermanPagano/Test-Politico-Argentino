@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Test Politico Argentino (2023)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido al Test Político Argentino! 
+Este proyecto te permite realizar un cuestionario político para descubrir tu afinidad con diferentes corrientes políticas en Argentina. ¡Descubre cuál es tu tendencia política!
 
-## Available Scripts
+## Tabla de Contenidos
 
-In the project directory, you can run:
 
-### `npm start`
+- [Demo](#demo)
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Visita nuestro [  Test Político Argentino  ](https://test-politico-argentino.vercel.app/)  y descubri tu tendencia política en Argentina.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Descripción
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El Test Político Argentino es una aplicación web que te permite responder un cuestionario político para evaluar tus posturas en diferentes temas relevantes en Argentina. Basado en tus respuestas, se determina cuál es tu tendencia política en el espectro político argentino.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La aplicación está construida utilizando tecnologías web modernas, como React.js y CSS, y cuenta con una interfaz intuitiva y atractiva.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Características
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Cuestionario Político: Responde preguntas relacionadas con temas políticos y sociales en Argentina.
+- Evaluación de Tendencia: Basado en tus respuestas, se determina tu tendencia política en Argentina.
+- Resultado Personalizado: Obtén un resultado personalizado que indica tu afinidad con diferentes corrientes políticas en Argentina.
+- Diseño Responsivo: La aplicación está optimizada para su uso en dispositivos móviles y de escritorio.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Instalación
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para ejecutar el Test Político Argentino en tu dispositivo local, sigue estos pasos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Clona este repositorio en tu máquina local.
+- Abre una terminal en la carpeta del proyecto.
+- Ejecuta el comando npm install para instalar las dependencias del proyecto.
+- Una vez finalizada la instalación, ejecuta el comando npm start para iniciar la aplicación en modo de desarrollo.
+- Abre tu navegador web y accede a http://localhost:3000 para usar el Test Político Argentino.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Uso
+El Test Político Argentino es fácil de usar:
 
-### Analyzing the Bundle Size
+- Responde las preguntas del cuestionario seleccionando una única opción de respuesta para cada pregunta.
+- Al finalizar el cuestionario, se mostrará tu tendencia política en Argentina basada en tus respuestas.
+- Podrás ver un mensaje descriptivo de tu tendencia política y una imagen representativa.
+- Explora los diferentes resultados y descubre cuál es tu afinidad con las corrientes políticas en Argentina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Ejemplos
+Aquí tienes algunos ejemplos de cómo el Test Político Argentino puede ser utilizado:
 
-### Advanced Configuration
+- Personas que deseen conocer su tendencia política y tener una visión general de su afinidad con diferentes corrientes políticas en Argentina.
+- Estudiantes de ciencias políticas o personas interesadas en entender las distintas posturas políticas en Argentina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contribución
 
-### Deployment
+¡Agradecemos y animamos a la comunidad a contribuir a este proyecto!
+si te gustaria colaborar en el proyecto puedes contactarme por [LinkedIn](https://www.linkedin.com/in/gerhpagano/) y pondremos manos a la obra!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
