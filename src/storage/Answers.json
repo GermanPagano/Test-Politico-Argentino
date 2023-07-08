@@ -229,18 +229,6 @@
     "correctAnswer": "N/A"
   }
   ,{
-    "question": "¿Cuál es tu postura respecto a la legalización de la marihuana?",
-    "questionType": "text",
-    "answerSelectionType": "single",
-    "answers": [
-      "Apoyo la legalización de la marihuana como una forma de despenalizar el consumo personal, reducir el mercado negro y generar ingresos fiscales. Además, promovería su uso medicinal y regularía su comercialización." ,
-      "Me opongo firmemente a la legalización de la marihuana, ya que considero que su consumo conlleva riesgos para la salud y puede tener efectos negativos en la sociedad." ,
-      "Considero que la legalización de la marihuana podría ser una opción válida, siempre y cuando se establezcan regulaciones estrictas para su uso y se promueva la educación sobre sus riesgos. Buscaría un equilibrio entre la libertad individual y la responsabilidad colectiva.",
-      "Apoyo la legalización de la marihuana con fines recreativos y medicinales, siempre y cuando se establezcan mecanismos de control y regulación para prevenir el abuso. Defiendo los principios de libertad individual y el derecho a tomar decisiones informadas."  
-    ],
-    "correctAnswer": "N/A"
-  }
-  ,{
     "question": "¿Cuál es tu postura sobre la regulación de la tecnología y las redes sociales?",
     "questionType": "text",
     "answerSelectionType": "single",
