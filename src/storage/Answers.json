@@ -41,10 +41,10 @@
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "Impulsaría la creación de empleos públicos para generar oportunidades laborales.",
+      "Promovería programas de capacitación laboral y emprendimiento para generar empleos autónomos.",
       "Reduciría la intervención estatal y promovería la flexibilidad laboral para incentivar la contratación.",
-      "Implementaría políticas de estímulo a la inversión privada para generar empleos de calidad.",
-      "Priorizaría la protección de los derechos laborales y la creación de empleos sustentables."
+      "Desarrollaría programas de apoyo a las pequeñas y medianas empresas para promover la generación de empleo local.",
+      "Fomentaría la colaboración entre el sector público y privado para impulsar la creación de empleos."
     ],
     "correctAnswer": "N/A"
   },
@@ -67,8 +67,8 @@
     "answers": [
       "Implementaría políticas de transparencia y fortalecería los mecanismos de control estatal.",
       "Necesitamos una justicia independiente y severas penas para los casos de corrupción.",
-      "Promovería una mayor participación ciudadana y la rendición de cuentas de los funcionarios públicos.",
-      "Establecería mecanismos de control más eficientes y fortalecería los organismos de control existentes."
+      "Fortalecería los mecanismos de control interno y auditorías periódicas en todas las instituciones gubernamentales.",
+      "Impulsaría la creación de una plataforma digital de transparencia donde los ciudadanos puedan monitorear el gasto público."
     ],
     "correctAnswer": "N/A"
   },
@@ -115,8 +115,9 @@
     "answers": [
       "Deberíamos renegociar y reducir la deuda para destinar recursos a la inversión social.",
       "Debemos pagar la deuda en su totalidad y cumplir con nuestros compromisos internacionales.",
-      "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico.",
-      "La deuda debería ser auditada y renegociada según las necesidades del país."
+      "La deuda debería ser auditada y renegociada según las necesidades del país.",
+      "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico."
+      
     ],
     "correctAnswer": "N/A"
   },
@@ -125,8 +126,8 @@
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "Facilitaría los trámites burocráticos y ofrecería incentivos fiscales a las empresas extranjeras.",
       "Promovería políticas proteccionistas y restringiría la inversión extranjera en sectores estratégicos.",
+      "Facilitaría los trámites burocráticos y ofrecería incentivos fiscales a las empresas internacionales.",
       "Buscaría acuerdos internacionales para atraer inversión extranjera y fomentar la competencia local.",
       "Priorizaría la inversión nacional y limitaría la presencia de empresas extranjeras en el país."
     ],
@@ -136,10 +137,11 @@
     "questionType": "text",
     "answerSelectionType": "single",
     "answers": [
-      "Promovería la privatización de empresas estatales para mejorar su eficiencia y reducir la intervención estatal.",
       "Considero que las empresas estatales son estratégicas y deben mantenerse bajo control del Estado.",
-      "Buscaría asociaciones público-privadas para mejorar la gestión de las empresas estatales.",
-      "Defendería la nacionalización de empresas clave y fortalecería el rol del Estado en la economía."
+      "Promovería la privatización de empresas estatales para mejorar su eficiencia y reducir la intervención estatal.",
+      "Defendería la nacionalización de empresas clave y fortalecería el rol del Estado en la economía.",
+      "Buscaría asociaciones público-privadas para mejorar la gestión de las empresas estatales."
+      
     ],
     "correctAnswer": "N/A"
   },
@@ -149,7 +151,7 @@
     "answerSelectionType": "single",
     "answers": [
       "Promovería una política migratoria más abierta, facilitando la integración de inmigrantes en el país.",
-      "Limitaría la entrada de inmigrantes y reforzaría los controles fronterizos para proteger la identidad nacional.",
+      "Limitaría la entrada de inmigrantes y reforzaría los controles fronterizos.",
       "Buscaría un equilibrio entre la protección de las fronteras y la acogida de inmigrantes que contribuyan a la sociedad.",
       "Priorizaría la regularización de inmigrantes que cumplan con ciertos requisitos y contribuyan al desarrollo económico."
     ],
@@ -161,8 +163,9 @@
     "answers": [
       "Impulsaría la creación de centros de investigación y desarrollo, y otorgaría incentivos a empresas innovadoras.",
       "Promovería la inversión en tecnologías tradicionales y limitaría el avance de tecnologías disruptivas.",
-      "Buscaría asociaciones público-privadas para fomentar la investigación y el desarrollo tecnológico.",
-      "Priorizaría la protección de la propiedad intelectual y promovería el desarrollo de tecnología nacional."
+      "Priorizaría la protección de la propiedad intelectual y promovería el desarrollo de tecnología nacional.",
+      "Buscaría asociaciones público-privadas para fomentar la investigación y el desarrollo tecnológico."
+      
     ],
     "correctAnswer": "N/A"
   },{
@@ -172,10 +175,84 @@
     "answers": [
       "Tomaría medidas urgentes para mitigar el cambio climático y promovería la transición hacia energías renovables.",
       "Considero que el cambio climático es una exageración y no deberíamos tomar medidas drásticas al respecto.",
-      "Buscaría equilibrar la protección del medio ambiente con el desarrollo económico y la generación de empleo.",
-      "Priorizaría la explotación de recursos naturales sin restricciones para impulsar el crecimiento económico."
+      "Priorizaría la explotación responsable de los recursos naturales, promoviendo prácticas sostenibles y tecnologías limpias que impulsen el crecimiento económico." ,
+      "Buscaría un equilibrio entre la protección del medio ambiente y el desarrollo económico, implementando medidas que impulsen la transición hacia una economía sostenible."
     ],
     "correctAnswer": "N/A"
   }
+  ,{
+    "question": "¿Cuál es tu postura respecto al sistema de salud?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Deberíamos garantizar un sistema de salud público y universal accesible para todos, sin importar su situación económica." ,
+      "Creo en la importancia de la competencia y la participación del sector privado en el sistema de salud para mejorar la calidad y eficiencia de la atención médica." ,
+      "Es necesario implementar reformas que promuevan la prevención y educación en salud, así como fortalecer la atención primaria y la cobertura de medicamentos esenciales."  ,
+      "Deberíamos buscar un equilibrio entre el sistema público y privado, brindando opciones a los ciudadanos y garantizando que todos tengan acceso a servicios de calidad." 
+    ],
+    "correctAnswer": "N/A"
+  }
+  ,{
+    "question": "¿Cuál es tu enfoque respecto a la seguridad ciudadana?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Es fundamental promover la inclusión social y mejorar las condiciones de vida de las comunidades más vulnerables." ,
+      "Debemos fortalecer la cooperación entre las fuerzas de seguridad, implementar tecnología de vanguardia y promover la participación ciudadana en la seguridad, fomentando la autodefensa responsable." ,
+      "Es necesario abordar la seguridad ciudadana desde una perspectiva integral, combinando la prevención del delito con la promoción de políticas de inclusión social y la participación ciudadana en la toma de decisiones.",
+      "Debemos aplicar medidas más estrictas y penas más severas para combatir la delincuencia, priorizando la mano dura y el fortalecimiento de las fuerzas de seguridad." 
+    ],
+    "correctAnswer": "N/A"
+  }
+  ,{
+    "question": "¿Cuál es tu posición sobre el matrimonio igualitario?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Apoyo total al matrimonio igualitario y la igualdad de derechos para todas las personas, sin importar su orientación sexual." ,
+      "El matrimonio es una institución sagrada entre un hombre y una mujer, y no debería ser alterado. Defiendo los valores tradicionales y la familia tradicional." ,
+      "El matrimonio es la union de dos personas, la libertad de eleccion debe prevalecer.",
+      "Creo en la igualdad de derechos para todas las parejas, incluyendo el matrimonio igualitario. Es importante avanzar hacia una sociedad inclusiva y respetuosa de la diversidad." 
+    ],
+    "correctAnswer": "N/A"
+  }
+  ,{
+    "question": "¿Cuál es tu postura respecto a la legalización de la marihuana?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Apoyo la legalización de la marihuana como una forma de despenalizar el consumo personal, reducir el mercado negro y generar ingresos fiscales. Además, promovería su uso medicinal y regularía su comercialización." ,
+      "Me opongo firmemente a la legalización de la marihuana, ya que considero que su consumo conlleva riesgos para la salud y puede tener efectos negativos en la sociedad." ,
+      "Considero que la legalización de la marihuana podría ser una opción válida, siempre y cuando se establezcan regulaciones estrictas para su uso y se promueva la educación sobre sus riesgos. Buscaría un equilibrio entre la libertad individual y la responsabilidad colectiva.",
+      "Apoyo la legalización de la marihuana con fines recreativos y medicinales, siempre y cuando se establezcan mecanismos de control y regulación para prevenir el abuso. Defiendo los principios de libertad individual y el derecho a tomar decisiones informadas."  
+    ],
+    "correctAnswer": "N/A"
+  }
+  ,{
+    "question": "¿Cuál es tu postura respecto a la legalización de la marihuana?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Apoyo la legalización de la marihuana como una forma de despenalizar el consumo personal, reducir el mercado negro y generar ingresos fiscales. Además, promovería su uso medicinal y regularía su comercialización." ,
+      "Me opongo firmemente a la legalización de la marihuana, ya que considero que su consumo conlleva riesgos para la salud y puede tener efectos negativos en la sociedad." ,
+      "Considero que la legalización de la marihuana podría ser una opción válida, siempre y cuando se establezcan regulaciones estrictas para su uso y se promueva la educación sobre sus riesgos. Buscaría un equilibrio entre la libertad individual y la responsabilidad colectiva.",
+      "Apoyo la legalización de la marihuana con fines recreativos y medicinales, siempre y cuando se establezcan mecanismos de control y regulación para prevenir el abuso. Defiendo los principios de libertad individual y el derecho a tomar decisiones informadas."  
+    ],
+    "correctAnswer": "N/A"
+  }
+  ,{
+    "question": "¿Cuál es tu postura sobre la regulación de la tecnología y las redes sociales?",
+    "questionType": "text",
+    "answerSelectionType": "single",
+    "answers": [
+      "Apoyo una regulación estricta de la tecnología y las redes sociales para proteger la privacidad de los usuarios, prevenir la difusión de noticias falsas y garantizar la equidad en el acceso a la información. Busco limitar el poder de las grandes empresas tecnológicas y promover la responsabilidad social.",
+      "Regulación se traduce en mas gasto." ,
+      "Abogo por una regulación equilibrada de la tecnología y las redes sociales, que proteja los derechos de los usuarios y fomente la responsabilidad de las plataformas en la moderación del contenido. Busco encontrar un balance entre la libertad de expresión y la protección de los usuarios contra el abuso y la desinformación." ,
+      "Defiendo una regulación flexible de la tecnología y las redes sociales que permita la innovación y el crecimiento económico, al mismo tiempo que salvaguarda la privacidad y la seguridad de los usuarios. Busco promover la competencia justa y el cumplimiento de estándares éticos por parte de las empresas tecnológicas."   
+    ],
+    "correctAnswer": "N/A"
+  }
+
+  
   ]
   

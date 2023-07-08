@@ -32,6 +32,7 @@ const QuizApp = () => {
         point: pregunta.point,
       })),
     };
+
     setQuizData(adaptedQuizData);
   }, []);
 
