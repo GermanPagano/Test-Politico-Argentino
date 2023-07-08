@@ -3,6 +3,10 @@
 ¡Bienvenido al Test Político Argentino! 
 Este proyecto te permite realizar un cuestionario político para descubrir tu afinidad con diferentes corrientes políticas en Argentina. ¡Descubre cuál es tu tendencia política!
 
+
+![image](https://github.com/GermanPagano/Test-Politico-Argentino/assets/80891761/64423521-b734-419b-abf5-2f53567ad8d7)
+![image](https://github.com/GermanPagano/Test-Politico-Argentino/assets/80891761/f8b8192b-060d-4629-8b74-e3c9fe208ece)
+
 ## Tabla de Contenidos
 
 
