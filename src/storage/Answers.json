@@ -62,18 +62,6 @@
     "correctAnswer": "N/A"
   },
   {
-    "question": "¿Cuál es tu postura respecto a la deuda externa?",
-    "questionType": "text",
-    "answerSelectionType": "single",
-    "answers": [
-      "Deberíamos renegociar y reducir la deuda para destinar recursos a la inversión social.",
-      "Debemos pagar la deuda en su totalidad y cumplir con nuestros compromisos internacionales.",
-      "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico.",
-      "La deuda debería ser auditada y renegociada según las necesidades del país."
-    ],
-    "correctAnswer": "N/A"
-  },
-  {
     "question": "¿Qué medidas tomarías para combatir la corrupción?",
     "questionType": "text",
     "answerSelectionType": "single",
@@ -120,17 +108,6 @@
       "Buscaría un equilibrio entre la explotación minera y la protección del medio ambiente."
     ],
     "correctAnswer": "N/A"
-  },{
-    "question": "¿Cuál es tu postura respecto a la redistribución de la riqueza?",
-    "questionType": "text",
-    "answerSelectionType": "single",
-    "answers": [
-      "Debería haber una mayor redistribución para garantizar la igualdad económica.",
-      "La riqueza debe estar en manos de quienes la generan, sin intervención estatal.",
-      "Es necesario encontrar un equilibrio entre la redistribución y el estímulo a la inversión privada.",
-      "La redistribución excesiva desincentiva la producción y el emprendimiento."
-    ],
-    "correctAnswer": "N/A"
   },
   {
     "question": "¿Cuál es tu postura respecto a la deuda externa?",
@@ -141,18 +118,6 @@
       "Debemos pagar la deuda en su totalidad y cumplir con nuestros compromisos internacionales.",
       "Buscaría un equilibrio entre el pago de la deuda y la inversión en desarrollo económico.",
       "La deuda debería ser auditada y renegociada según las necesidades del país."
-    ],
-    "correctAnswer": "N/A"
-  },
-  {
-    "question": "¿Qué medidas tomarías para combatir la corrupción?",
-    "questionType": "text",
-    "answerSelectionType": "single",
-    "answers": [
-      "Implementaría políticas de transparencia y fortalecería los mecanismos de control estatal.",
-      "Necesitamos una justicia independiente y severas penas para los casos de corrupción.",
-      "Promovería una mayor participación ciudadana y la rendición de cuentas de los funcionarios públicos.",
-      "Establecería mecanismos de control más eficientes y fortalecería los organismos de control existentes."
     ],
     "correctAnswer": "N/A"
   },

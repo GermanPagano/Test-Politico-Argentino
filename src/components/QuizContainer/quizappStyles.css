@@ -1,30 +1,28 @@
-.QuizContainer{
-    
-    background-color: rgba(246, 241, 241, 0.882);
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    text-align: center;
+.QuizContainer {
+  background-color: rgba(246, 241, 241, 0.882);
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
 }
 
-
-.result-Box{
-
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: rgba(0, 0, 255, 0.567);
+.result-Box {
+    
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 255, 0.567);
 }
 
 .Quiz-External > button {
-    font-size: 0px;
-    background-color: aqua;
+  font-size: 0px;
+  background-color: aqua;
 }
-.tag-container{
-    display: none;
+.tag-container {
+  display: none;
 }
 
-.incorrect{
-    background-color: rgb(39, 108, 132) !important;
+.incorrect {
+  background-color: rgb(39, 108, 132) !important;
 }

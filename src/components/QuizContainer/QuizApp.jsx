@@ -2,9 +2,14 @@ import React, { useState, useEffect } from "react";
 import Quiz from "react-quiz-component";
 import preguntas from "../../storage/Answers.json";
 import "./quizappStyles.css";
-import Massa  from '../../assets/img/massa.jpg';
-import Grabois  from '../../assets/img/Grabois.jpg';
-import { emphasize } from "@mui/material";
+import Cano from "../../assets/img/caño.jpg";
+import Grabois from "../../assets/img/Grabois.jpg";
+import Larreta from "../../assets/img/larreta.jpg";
+import Massa from "../../assets/img/massa.jpg";
+import Biondini from "../../assets/img/biondini.jpg";
+import Milei from "../../assets/img/milei.jpg";
+import Bullrich from "../../assets/img/Bullrich.jpg";
+import Schi from "../../assets/img/schiaretti.jpg";
 
 const QuizApp = () => {
   const [quizData, setQuizData] = useState("");
@@ -30,7 +35,6 @@ const QuizApp = () => {
     setQuizData(adaptedQuizData);
   }, []);
 
-
   let ultraIz = 0;
   let ultraDer = 0;
   let centroIz = 0;
@@ -38,7 +42,7 @@ const QuizApp = () => {
   const handleSelectOption = (opcion) => {
     switch (opcion.userAnswer) {
       case 1:
-        ultraIz +=1
+        ultraIz += 1;
         break;
       case 2:
         ultraDer += 1;
@@ -53,35 +57,70 @@ const QuizApp = () => {
         console.log("Respuesta no reconocida");
         break;
     }
-    
   };
 
-
   const renderCustomResultPage = (obj) => {
-
     let maxCount = Math.max(ultraIz, ultraDer, centroIz, centroDer);
+    let percentage = Math.round((maxCount / 18) * 100);
     let message = "";
-    let vote ;
+    let vote;
+
+    const candidateOptions = {
+      ultraIzquierda: {
+        threshold: 70,
+        options: {
+          high: Cano,
+          low: Grabois,
+        },
+      },
+      ultraDerecha: {
+        threshold: 70,
+        options: {
+          high: Biondini,
+          low: Milei,
+        },
+      },
+      centroIzquierda: {
+        threshold: 70,
+        options: {
+          high: Larreta,
+          low: Massa,
+        },
+      },
+      centroDerecha: {
+        threshold: 70,
+        options: {
+          high: Bullrich,
+          low: Schi,
+        },
+      },
+    };
+
+    const findCandidate = (tendency) => {
+      const { threshold, options } = candidateOptions[tendency];
+      return percentage > threshold ? options.high : options.low;
+    };
+
     if (maxCount === ultraIz) {
-      message = `Elegiste ${ultraIz} respuestas de la tendencia ultra izquierda.`;
-      vote= Grabois;
+      message = `Tendencia ${percentage}% de ultra izquierda`;
+      vote = findCandidate("ultraIzquierda");
     } else if (maxCount === ultraDer) {
-      message = `Elegiste ${ultraDer} respuestas de la tendencia ultra derecha.`;
+      message = `Tendencia ${percentage}% de ultra derecha`;
+      vote = findCandidate("ultraDerecha");
     } else if (maxCount === centroIz) {
-      message = `Elegiste ${centroIz} respuestas de la tendencia centro izquierda.`;
-      vote = Massa
+      message = `Tendencia ${percentage}% de centro izquierda`;
+      vote = findCandidate("centroIzquierda");
     } else if (maxCount === centroDer) {
-      message = `Elegiste ${centroDer} respuestas de la tendencia centro derecha.`;
+      message = `Tendencia ${percentage}% de centro derecha`;
+      vote = findCandidate("centroDerecha");
     } else {
       message = "No se identifica una tendencia predominante.";
     }
+
     return (
       <div className="result-Box">
         <p>{message}</p>
-        <img
-          alt="result"
-          src={Massa}
-        />
+        <img className="img-result" alt="result" src={vote} />
       </div>
     );
   };
